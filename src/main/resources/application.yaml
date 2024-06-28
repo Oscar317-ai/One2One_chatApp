@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: TestMessage
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: chatdb  # Replace with your MongoDB database name
+
+
