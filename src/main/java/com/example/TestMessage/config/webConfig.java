@@ -20,7 +20,7 @@ public class webConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/ws")
-                .setAllowedOrigins("https://77bd-102-210-221-6.ngrok-free.app")
+                .setAllowedOrigins("https://2d03-41-89-230-156.ngrok-free.app ")
                 .withSockJS();
     }
 

@@ -24,7 +24,7 @@ function connect(event) {
         usernamePage.classList.add('hidden');
         chatPage.classList.remove('hidden');
 
-        const socket = new SockJS('https://77bd-102-210-221-6.ngrok-free.app/ws');
+        const socket = new SockJS('https://2d03-41-89-230-156.ngrok-free.app /ws');
         stompClient = Stomp.over(socket);
 
         stompClient.connect({}, onConnected, onError);
@@ -68,7 +68,7 @@ function appendUserElement(user, connectedUsersList) {
     listItem.id = user.nickName;
 
     const userImage = document.createElement('img');
-    userImage.src = '/img/user.jpg';
+    userImage.src = '/img/user.jpg  ';
     userImage.alt = user.fullName;
 
     const usernameSpan = document.createElement('span');
